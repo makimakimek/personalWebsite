@@ -1,0 +1,61 @@
+.pageContainer {
+    background-color: #F4F9FA;
+}
+
+.nameContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 50px;
+    color: #2C3879;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.aboutContainer {
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutContainer .imageContainer {
+
+}
+
+.image1 {
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+.aboutContainer .textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.aboutContainer .textContainer .titleContainer {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    color: #2C3879;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.aboutContainer .textContainer .paragraphContainer {
+    font-size: 20px;
+    color: #2C3879;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.skillsContainer {
+    height: 50vh;
+}
+
+.skillsContainer .titleContainer {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2C3879;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
