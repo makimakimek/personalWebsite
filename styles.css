@@ -2,6 +2,8 @@
     background-color: #F4F9FA;
 }
 
+/*/////////////////////////name part/////////////////////////*/
+
 .nameContainer {
     display: flex;
     align-items: center;
@@ -11,6 +13,8 @@
     color: #2C3879;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+/*/////////////////////////about me and image part/////////////////////////*/
 
 .aboutContainer {
     height: 50vh;
@@ -49,6 +53,8 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+/*/////////////////////////skills part/////////////////////////*/
+
 .skillsContainer {
     height: 50vh;
 }
@@ -59,3 +65,18 @@
     color: #2C3879;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+}
+
+.frontEndSkillsContainer {
+    border: solid 1px #2C3879;
+}
+
+.miscContainer {
+    border: solid 1px #2C3879;
+}
+
+/*/////////////////////////featured projects part/////////////////////////*/
