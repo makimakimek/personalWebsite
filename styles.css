@@ -145,9 +145,61 @@
 .iconContainer {
     display: flex;
     align-items: center;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .frontEndSkillsContainer {
+    border: solid 1px #2C3879;
+    display: flex;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.frontEndSkillsContainer > div > img {
+    padding: 10px;
+}
+
+.htmlContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cssContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.jsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.htmlImage {
+    height: auto;
+    width: 100%;
+    max-width: 50px;
+}
+
+.cssImage {
+    height: auto;
+    width: 100%;
+    max-width: 50px;
+}
+
+.javascriptImage {
+    height: auto;
+    width: 100%;
+    max-width: 50px;
+}
+
+.otherCodingContainer {
     border: solid 1px #2C3879;
 }
 
