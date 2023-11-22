@@ -33,60 +33,61 @@
 
 .animation:after {
     content:"";
-    animation: spin 20s linear infinite;
+    animation: spin 10s linear infinite;
 }
 
 @keyframes spin {
     0% {content:"|";}
-    1% {content:"s|";}
-    2% {content: "st|";}
-    3% {content: "stu|";}
-    4% {content: "stud|";}
-    5% {content: "stude|";}
-    6% {content: "studen|";}
-    7% {content: "student|";}
-    8% {content: "student.|";}
-    9% {content: "student|";}
-    10% {content: "studen|";}
-    11% {content: "stude|";}
-    12% {content: "stud|";}
-    13% {content: "stu|";}
-    14% {content: "st|";}
-    15% {content: "s|";}
-    16% {content: "|";}
-    17% {content: "|";}
-    18% {content: "c|";}
-    19% {content: "co|";}
-    20% {content: "cod|";}
-    21% {content: "code|";}
-    22% {content: "coder|";}
-    23% {content: "coder.|";}
-    24% {content: "coder|";}
-    25% {content: "code|";}
-    26% {content: "cod|";}
-    27% {content: "co|";}
-    28% {content: "c|";}
-    29% {content: "|";}
-    30% {content: "|";}
-    31% {content: "d|";}
-    32% {content: "de|";}
-    33% {content: "des|";}
-    34% {content: "desi|";}
-    35% {content: "desig|";}
-    36% {content: "design|";}
-    37% {content: "designe|";}
-    38% {content: "designer|";}
-    39% {content: "designer.|";}
-    40% {content: "designer|";}
-    41% {content: "designe|";}
-    42% {content: "design|";}
-    43% {content: "desig|";}
-    44% {content: "desi|";}
-    45% {content: "des|";}
-    46% {content: "de|";}
-    47% {content: "d|";}
-    48% {content: "|";}
-    49% {content: "|";}
+    2% {content:"s|";}
+    4% {content: "st|";}
+    6% {content: "stu|";}
+    8% {content: "stud|";}
+    10% {content: "stude|";}
+    12% {content: "studen|";}
+    14% {content: "student|";}
+    16% {content: "student.|";}
+    18% {content: "student|";}
+    20% {content: "studen|";}
+    22% {content: "stude|";}
+    24% {content: "stud|";}
+    26% {content: "stu|";}
+    28% {content: "st|";}
+    30% {content: "s|";}
+    32% {content: "|";}
+    34% {content: "|";}
+    36% {content: "c|";}
+    38% {content: "co|";}
+    40% {content: "cod|";}
+    42% {content: "code|";}
+    44% {content: "coder|";}
+    46% {content: "coder.|";}
+    48% {content: "coder|";}
+    50% {content: "code|";}
+    52% {content: "cod|";}
+    54% {content: "co|";}
+    56% {content: "c|";}
+    58% {content: "|";}
+    60% {content: "|";}
+    62% {content: "d|";}
+    64% {content: "de|";}
+    66% {content: "des|";}
+    68% {content: "desi|";}
+    70% {content: "desig|";}
+    72% {content: "design|";}
+    74% {content: "designe|";}
+    76% {content: "designer|";}
+    78% {content: "designer.|";}
+    80% {content: "designer|";}
+    82% {content: "designe|";}
+    84% {content: "design|";}
+    86% {content: "desig|";}
+    88% {content: "desi|";}
+    90% {content: "des|";}
+    92% {content: "de|";}
+    94% {content: "d|";}
+    96% {content: "|";}
+    98% {content: "|";}
+    100% {content: "|";}
   }
 
 /*/////////////////////////about me and image part/////////////////////////*/
