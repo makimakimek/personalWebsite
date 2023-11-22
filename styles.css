@@ -4,15 +4,58 @@
 
 /*/////////////////////////name part/////////////////////////*/
 
-.nameContainer {
+.firstViewContainer {
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+}
+
+.nameContainer {
     font-size: 50px;
     color: #2C3879;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.animationContainer {
+    font-size: 40px;
+    color: #2C3879;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+}
+
+.animation {
+    font-size: 40px;
+    color: #52afc9;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.animation:after {
+    content:"";
+    animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+    0% {content:"|";}
+    1% {content:"s|";}
+    2% {content: "st|";}
+    3% {content: "stu|";}
+    4% {content: "stud|";}
+    5% {content: "stude|";}
+    6% {content: "studen|";}
+    7% {content: "student|";}
+    8% {content: "student.|";}
+    9% {content: "student|";}
+    10% {content: "studen|";}
+    11% {content: "stude|";}
+    12% {content: "stud|";}
+    13% {content: "stu|";}
+    14% {content: "st|";}
+    15% {content: "s|";}
+    16% {content: "|";}
+    17% {content: "|";}
+  }
 
 /*/////////////////////////about me and image part/////////////////////////*/
 
@@ -80,3 +123,4 @@
 }
 
 /*/////////////////////////featured projects part/////////////////////////*/
+
