@@ -93,7 +93,7 @@
 /*/////////////////////////about me and image part/////////////////////////*/
 
 .aboutContainer {
-    height: 60vh;
+    height: 70vh;
 }
 
 .underneathContainer {
@@ -134,7 +134,7 @@
 /*/////////////////////////skills part/////////////////////////*/
 
 .skillsContainer {
-    height: 60vh;
+    height: 70vh;
 }
 
 .skillsContainer .titleContainer {
@@ -313,4 +313,48 @@
 a.link {
     color: white;
     text-decoration: none;
+}
+
+/*///////////////////////for phones/////////////////////////////////*/
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px; 
+    }
+
+    .nameContainer {
+        font-size: 30px; 
+    }
+
+    .animationContainer {
+        font-size: 24px; 
+    }
+
+    .image1 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .aboutContainer .underneathContainer .textContainer .paragraphContainer {
+        max-width: 100%;
+    }
+
+    .iconContainer > div > div > div > div > img {
+        max-width: 40px;
+    }
+
+    .projectTitleContainer {
+        font-size: 20px;
+    }
+
+    .projectParagraph {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .buttons {
+        width: 140px;
+        font-size: 16px;
+        margin: 5px;
+    }
 }
