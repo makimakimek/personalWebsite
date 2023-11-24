@@ -296,3 +296,8 @@
 .rightContainer > div {
     padding: 20px;
 }
+
+a.link {
+    color: white;
+    text-decoration: none;
+}
