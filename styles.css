@@ -238,14 +238,14 @@
     padding: 5px;
 }
 
-.projectButtonContainer > div > button {
+.buttons {
     margin: 3px;
     color: white;
-    background-color: #3ae1fe;
+    background-color: #176674;
     border-radius: 25px;
     width: 150px;
     height: 50px;
-    border: 1px solid #3ae1fe;
+    border: 1px solid #176674;
     font-size: 20px;
     opacity: 0.7;
 }
@@ -295,9 +295,4 @@
 
 .rightContainer > div {
     padding: 20px;
-}
-
-a.link {
-    color: white;
-    text-decoration: none;
 }
