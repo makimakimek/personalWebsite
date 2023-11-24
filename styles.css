@@ -221,12 +221,17 @@
     padding: 10px;
     margin: 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .projectButtonContainer {
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+    width: 62%;
 }
 
 .projectButtonContainer > div {
@@ -236,12 +241,12 @@
 .projectButtonContainer > div > button {
     margin: 3px;
     color: white;
-    background-color: #4F97A3;
+    background-color: #3ae1fe;
     border-radius: 25px;
-    width: 120px;
-    height: 40px;
-    border: 1px solid #4F97A3;
-    font-size: 16px;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #3ae1fe;
+    font-size: 20px;
     opacity: 0.7;
 }
 
@@ -257,14 +262,42 @@
 .leftContainer {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .leftContainer > div {
-    padding: 5px;
+    padding: 10px;
 }
 
 .projectTitleContainer {
     font-size: 25px;
     color: #2C3879;
     font-family: Impact, Haettenschweiler, sans-serif;
+}
+
+.projectImageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.projectImage {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.rightContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightContainer > div {
+    padding: 20px;
+}
+
+a.link {
+    color: white;
+    text-decoration: none;
 }
