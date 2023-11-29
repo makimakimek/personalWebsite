@@ -105,6 +105,7 @@ body {
     height: auto;
     width: 100%;
     max-width: 19em;
+    margin-top: 4em;
 }
 
 .underneathContainer .textContainer {
@@ -117,7 +118,7 @@ body {
 .aboutContainer .titleContainer {
     font-size: 2em;
     font-weight: bold;
-    padding: 0.6em;
+    text-align: center;
     color: #034566;
     font-family: Impact, Haettenschweiler, sans-serif;
 }
@@ -138,6 +139,7 @@ body {
 }
 
 .skillsContainer .titleContainer {
+    text-align: center;
     font-size: 2em;
     font-weight: bold;
     color: #034566;
@@ -145,6 +147,7 @@ body {
 }
 
 .iconContainer {
+    margin-top: 4em;
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
@@ -196,6 +199,35 @@ body {
     padding: 0.6em;
 }
 
+.aboutContainer .titleContainer {
+    position: relative;
+    text-align: center;
+    font-size: 2em;
+    color: #2C3879;
+    font-family: Impact, Haettenschweiler, sans-serif;
+    padding: 0.6em;
+}
+
+.aboutContainer .titleContainer::before,
+.aboutContainer .titleContainer::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 38%;
+    height: 0.05em;
+    background-color: #2C3879;
+}
+
+.aboutContainer .titleContainer::before {
+    margin-left: 6%;
+    left: 0;
+}
+
+.aboutContainer .titleContainer::after {
+    margin-right: 6%;
+    right: 0;
+}
+
 /*/////////////////////////featured projects part/////////////////////////*/
 
 .featuredProjectsContainer {
@@ -203,6 +235,7 @@ body {
 }
 
 .featuredProjectsContainer .titleContainer {
+    text-align: center;
     font-size: 2em;
     font-weight: bold;
     color: #034566;
@@ -210,6 +243,7 @@ body {
 }
 
 .projectsContainer {
+    margin-top: 4em;
     display: flex;
     flex-direction: column;
 }
