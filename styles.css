@@ -1,6 +1,10 @@
 body {
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
 }
+
+
 
 /*/////////////////////////name part/////////////////////////*/
 
@@ -94,6 +98,7 @@ body {
 
 .aboutContainer {
     height: 70vh;
+    position: relative;
 }
 
 .underneathContainer {
@@ -121,6 +126,29 @@ body {
     text-align: center;
     color: #034566;
     font-family: Impact, Haettenschweiler, sans-serif;
+    position: relative;
+}
+
+.aboutContainer .titleContainer:before {
+    content: "";
+    display: block;
+    width: 20em;
+    height: 0.1em;
+    background: #191970;
+    left: 5em;
+    top: 50%;
+    position: absolute;
+}
+
+.aboutContainer .titleContainer:after {
+    content: "";
+    display: block;
+    width: 20em;
+    height: 0.1em;
+    background: #191970;
+    right: 5em;
+    top: 50%;
+    position: absolute;
 }
 
 .underneathContainer .textContainer .paragraphContainer {
@@ -136,6 +164,7 @@ body {
 
 .skillsContainer {
     height: 70vh;
+    position: relative;
 }
 
 .skillsContainer .titleContainer {
@@ -144,6 +173,7 @@ body {
     font-weight: bold;
     color: #034566;
     font-family: Impact, Haettenschweiler, sans-serif;
+    position: relative;
 }
 
 .iconContainer {
@@ -176,7 +206,7 @@ body {
     align-items: center;
 }
 
-.iconContainer .titleContainer {
+.iconContainer .titleContainer2 {
     color: #034566;
     font-family: Impact, Haettenschweiler, sans-serif;
     font-weight: 300;
@@ -199,39 +229,33 @@ body {
     padding: 0.6em;
 }
 
-.aboutContainer .titleContainer {
-    position: relative;
-    text-align: center;
-    font-size: 2em;
-    color: #2C3879;
-    font-family: Impact, Haettenschweiler, sans-serif;
-    padding: 0.6em;
-}
-
-.aboutContainer .titleContainer::before,
-.aboutContainer .titleContainer::after {
+.skillsContainer .titleContainer:before {
     content: "";
-    position: absolute;
+    display: block;
+    width: 21em;
+    height: 0.1em;
+    background: #191970;
+    left: 5em;
     top: 50%;
-    width: 38%;
-    height: 0.05em;
-    background-color: #2C3879;
+    position: absolute;
 }
 
-.aboutContainer .titleContainer::before {
-    margin-left: 6%;
-    left: 0;
-}
-
-.aboutContainer .titleContainer::after {
-    margin-right: 6%;
-    right: 0;
+.skillsContainer .titleContainer:after {
+    content: "";
+    display: block;
+    width: 21em;
+    height: 0.1em;
+    background: #191970;
+    right: 5em;
+    top: 50%;
+    position: absolute;
 }
 
 /*/////////////////////////featured projects part/////////////////////////*/
 
 .featuredProjectsContainer {
     height: 170vh;
+    position: relative;
 }
 
 .featuredProjectsContainer .titleContainer {
@@ -240,19 +264,21 @@ body {
     font-weight: bold;
     color: #034566;
     font-family: Impact, Haettenschweiler, sans-serif;
+    position: relative;
 }
 
 .projectsContainer {
     margin-top: 4em;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .projectUnderneathContainer {
+    position: relative;
     border: solid 1px #034566;
     background-color: #f2fbff;
     border-radius: 0.6em;
-    height: 31em;
     padding: 0.6em;
     margin: 0.6em;
     display: flex;
@@ -348,6 +374,28 @@ body {
 a.link {
     color: white;
     text-decoration: none;
+}
+
+.featuredProjectsContainer .titleContainer:before {
+    content: "";
+    display: block;
+    width: 18em;
+    height: 0.1em;
+    background: #191970;
+    left: 5em;
+    top: 50%;
+    position: absolute;
+}
+
+.featuredProjectsContainer .titleContainer:after {
+    content: "";
+    display: block;
+    width: 18em;
+    height: 0.1em;
+    background: #191970;
+    right: 5em;
+    top: 50%;
+    position: absolute;
 }
 
 /*///////////////////////for phones/////////////////////////////////*/
