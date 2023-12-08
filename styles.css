@@ -4,8 +4,6 @@ body {
     flex-direction: column;
 }
 
-
-
 /*/////////////////////////name part/////////////////////////*/
 
 .firstViewContainer {
@@ -107,6 +105,9 @@ body {
 }
 
 .image1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: auto;
     width: 100%;
     max-width: 19em;
